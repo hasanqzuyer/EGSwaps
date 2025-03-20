@@ -1,0 +1,10 @@
+input.w-full.appearance-none.bg-transparent.text-sm.outline-none.light\:text-\[\#22326e\] {
+  color: #22326e !important;
+}
+.dark-placeholder::placeholder {
+  color: white !important;
+}
+.react-confirm-alert-overlay {
+  background: transparent !important;
+  backdrop-filter: blur(8px) !important;
+}

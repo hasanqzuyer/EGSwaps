@@ -1,0 +1,7 @@
+dist
+node_modules
+.env
+/migrations
+.heroku/*
+.heroku/
+src/config/abi/types

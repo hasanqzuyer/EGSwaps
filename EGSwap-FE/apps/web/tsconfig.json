@@ -1,0 +1,21 @@
+{
+  "extends": "tsconfig/nextjs.json",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "baseUrl": "src",
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "noFallthroughCasesInSwitch": true,
+    "downlevelIteration": true,
+    "target": "es5"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "./src/**/*.ts",
+    "./src/**/*.tsx"
+  ]
+}

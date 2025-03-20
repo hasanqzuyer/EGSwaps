@@ -1,0 +1,8 @@
+node_modules
+dist
+/coverage
+.github
+/migrations
+openapi-codegen
+ormconfig.js
+src/config/abi/types

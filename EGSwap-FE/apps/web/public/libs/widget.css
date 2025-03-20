@@ -1,0 +1,10 @@
+.egspectre-widget {
+  width: 529px;
+  height: 710px;
+}
+@media screen and (max-width: 588px) {
+  .egspectre-widget {
+    width: 90vw;
+    margin: 0 auto;
+  }
+}
